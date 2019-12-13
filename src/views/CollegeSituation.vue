@@ -31,7 +31,11 @@
     <br />
     <br />
     <div>
-      <img src="@/assets/projects/csfull.jpg" class="project-image" />
+      <img src="@/assets/projects/csweb.jpg" class="project-image" />
+    </div>
+ 
+    <div>
+      <img src="@/assets/projects/cswhite.jpg" class="project-image"  />
     </div>
     <br />
     <Footer />
@@ -58,7 +62,7 @@ export default {
 
 .breadcrumb {
   margin-top: 60px;
-  color: #FFE403;
+  color: #ffe403;
   opacity: 0.8;
 }
 
@@ -71,7 +75,7 @@ export default {
 }
 
 .yellow-font {
-  color: #FFE403;
+  color: #ffe403;
 }
 
 .about-app {
