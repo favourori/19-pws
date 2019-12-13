@@ -31,7 +31,7 @@
     <br />
     <br />
     <div>
-      <img src="@/assets/projects/csfull.png" class="project-image" />
+      <img src="@/assets/projects/csfull.jpg" class="project-image" />
     </div>
     <br />
     <Footer />

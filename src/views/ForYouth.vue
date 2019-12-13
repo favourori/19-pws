@@ -29,7 +29,7 @@
     <br />
     <br />
     <div>
-      <img src="@/assets/projects/4ybyfull.png" class="project-image" />
+      <img src="@/assets/projects/4ybyfull.jpg" class="project-image" />
     </div>
     <br />
     <Footer />
