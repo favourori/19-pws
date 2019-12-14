@@ -31,7 +31,7 @@
     <br />
     <br />
     <div>
-      <img src="@/assets/projects/csweb.jpg" class="project-image" />
+      <img src="@/assets/projects/cswebscreen.jpg" class="project-image" />
     </div>
  
     <div>
