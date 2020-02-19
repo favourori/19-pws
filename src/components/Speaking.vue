@@ -1,10 +1,15 @@
 <template>
   <div class="container" style="margin-top: 80px">
-    <p class="secondary-color">TALKS & ENGAGEMENTS</p>
+    <p class="secondary-color" style="font-size: 24px">TALKS & ENGAGEMENTS</p>
+    <p class="blue-font-color" style="font-size: 18px">
+      I speak at events & conferences <b>worldwide 🌍</b>
+    </p>
 
     <div v-for="(speaking, index) in speaking" :key="index">
-      <p class="light-color">{{speaking.title}}</p>
-      <p class="blue-font-color" style="max-width: 700px">{{speaking.description}}</p>
+      <p class="light-color">{{ speaking.title }}</p>
+      <p class="blue-font-color" style="max-width: 700px">
+        {{ speaking.description }}
+      </p>
     </div>
   </div>
 </template>
@@ -16,7 +21,7 @@ export default {
     return {
       speaking: [
         {
-          title: "1MillionCups Tulsa, OK - March 2019",
+          title: "1MillionCups Tulsa, Oklahoma - March 2018 & 2019",
           description:
             "Delivered a presentation at 1MillionCups, Tulsa, Oklahoma (2018 & 2019) on our reach with Favcode54 & how we are improving / empowering lives in Africa using technology"
         },
@@ -28,18 +33,19 @@ export default {
         },
 
         {
-          title: "United Nations Youth Assembly - August 2018",
+          title: "United Nations Youth Assembly, New York - August 2018",
           description:
             "In August 2018, I was Invited to speak as an outstanding Youth Delegate at the United Nations’ Youth Assembly on the impact of Favcode54 in Africa."
         },
 
         {
-          title: "NCHC  Atlanta, GA - November 2017",
+          title: "NCHC  Atlanta, Georgia - November 2017",
           description:
             "Presented a web hacking research paper at the NCHC ’17 conference in Atlanta, GA – discussed common Web & Software vulnerabilities & how to stay secured on the internet"
         },
         {
-          title: "Southern Arkansas University Magnolia, AR - August 2017",
+          title:
+            "Southern Arkansas University Magnolia, Arkansas - August 2017",
           description:
             "Gave 100+ High school students a sneak peak into programming @SAU – we went from prototyping to developing simple web pages."
         }
@@ -51,7 +57,7 @@ export default {
 
 <style>
 .secondary-color {
-  color: #ff9800;
+  color: #fcbf77;
 }
 
 .light-color {
@@ -62,4 +68,4 @@ export default {
 .blue-font-color {
   color: #b6d3f5;
 }
-</style> 
+</style>

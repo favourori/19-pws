@@ -1,14 +1,13 @@
 <template>
   <div class="container" style="margin-top: 80px">
     <p class="secondary-color">
-      RECENT PROJECTS 
-     
+      RECENT PROJECTS
     </p>
     <div class="flex-container">
-      <router-link :to="{ name: 'collegeSituation'}">
+      <router-link :to="{ name: 'collegeSituation' }">
         <img src="@/assets/projects/cs.png" class="project" />
       </router-link>
-      <router-link :to="{ name: '4yby'}">
+      <router-link :to="{ name: '4yby' }">
         <img src="@/assets/projects/4yby.png" class="project" />
       </router-link>
       <a href="https://github.com/favourori">
@@ -26,7 +25,7 @@ export default {
 
 <style>
 .secondary-color {
-  color: #FFE403!important;
+  color: #fcbf77!important;
 }
 
 .project {

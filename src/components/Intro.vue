@@ -1,14 +1,19 @@
 <template>
-  <div class="container animated fadeInUp" style="margin-top: 120px; animation-duration: 1s;">
+  <div
+    class="container animated fadeInUp"
+    style="margin-top: 60px; animation-duration: 1s;"
+  >
     <p class="primary-color intro">
-      I am a
-      <span class="secondary-color-bold">Software Developer</span> passionate about developing innovative
-      <br />products geared toward making life pretty easy.
+      <span class="secondary-color-bold">Software Developer</span> passionate
+      about developing innovative <br />products geared toward simplifying &
+      Improving life.
     </p>
     <p style="color: #B6D3F5; font-size: 18px">
-      Every year, I make out time to teach programming
+      I am currently a Software Engineer (Web & Mobile)
       <a href="https://favcode54.org/">
-        <span class="secondary-color-bold">@Favcode54</span>
+        <span class="secondary-color-bold">
+          <u>@ABiTNetwork</u>
+        </span>
       </a>
     </p>
   </div>
@@ -29,10 +34,10 @@ export default {
   font-size: 38px;
 }
 .intro {
-  font-size: 26px;
+  font-size: 29px;
 }
 
 .secondary-color-bold {
-  color: #FFE403;
+  color: #fcbf77;
 }
 </style>

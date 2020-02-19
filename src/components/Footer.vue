@@ -5,8 +5,8 @@
     <div>
       <p align="center" class="footer-secondary-color">REACH OUT</p>
       <p class="blue-color footer" align="center">
-        I always interested in fun projects & activities, so feel free to drop a line
-        favourori(@)gmail(dot)com
+        I always interested in fun projects & activities, so feel free to drop a
+        line favourori(@)gmail(dot)com
       </p>
     </div>
   </div>
@@ -20,7 +20,7 @@ export default {
 
 <style>
 .footer-secondary-color {
-  color: #FFE403;
+  color: #fcbf77;
   font-weight: 700;
   font-size: 30px;
 }
@@ -36,7 +36,7 @@ hr {
   border-bottom: 1px solid rgb(50, 69, 90);
 }
 
-.footer{
-  font-size: 18px
+.footer {
+  font-size: 18px;
 }
 </style>
