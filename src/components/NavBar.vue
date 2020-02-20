@@ -33,11 +33,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .primary-background {
-  background-color: #1c1c1c;
+  background-color: #222f3e;
 }
 
 .secondary-color {
-  color: #fcbf77;
+  color: #FFE402;
   font-weight: 700;
   font-size: 40px;
 }

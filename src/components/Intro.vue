@@ -38,6 +38,6 @@ export default {
 }
 
 .secondary-color-bold {
-  color: #fcbf77;
+  color: #FFE402;
 }
 </style>
