@@ -1,7 +1,7 @@
 <template>
   <div class="container" style="margin-top: 80px">
-    <p class="secondary-color" style="font-size: 24px">TALKS & ENGAGEMENTS</p>
-    <p class="blue-font-color" style="font-size: 18px">
+    <p class="secondary-color" style="font-size: 24px"> TALKS & ENGAGEMENTS </p>
+    <p class="blue-font-color" style="font-size: 18px; margin-top: -15px">
       I speak at events & conferences <b>worldwide 🌍</b>
     </p>
 
@@ -27,7 +27,7 @@ export default {
         },
 
         {
-          title: "YCBS Conference Atlanta, GA - May 2018",
+          title: "YCBS Conference Atlanta, Georgia - May 2018",
           description:
             "Spoke at the Young CEOs Business Forum in Atlanta, GA (2018) discussing Big Data & how it is shaping the world."
         },
@@ -57,7 +57,7 @@ export default {
 
 <style>
 .secondary-color {
-  color: #FFE402;
+  color: #ffe402;
 }
 
 .light-color {

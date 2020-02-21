@@ -11,7 +11,11 @@
           </span>
         </router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">RECENT PROJECTS</a></li>
+          <li>
+            <a href="badges.html"
+              ><i class="material-icons left">view_module</i> PROJECTS</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
@@ -37,7 +41,7 @@ export default {
 }
 
 .secondary-color {
-  color: #FFE402;
+  color: #ffe402;
   font-weight: 700;
   font-size: 40px;
 }
