@@ -1,6 +1,8 @@
 <template>
   <div class="container" style="margin-top: 80px">
-    <p class="secondary-color" style="font-size: 24px"> TALKS & ENGAGEMENTS </p>
+    
+    <p class="secondary-color" style="font-size: 21px"> TALKS & ENGAGEMENTS </p>
+    
     <p class="blue-font-color" style="font-size: 18px; margin-top: -15px">
       I speak at events & conferences <b>worldwide 🌍</b>
     </p>

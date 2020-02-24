@@ -5,7 +5,7 @@
     <div>
       <p align="center" class="footer-secondary-color">REACH OUT</p>
       <p class="blue-color footer" align="center">
-        I am always interested in fun projects & activities, so feel free to
+        I am always interested in fun projects & activities, <br/> so feel free to
         drop me a line favourori(@)gmail(dot)com
       </p>
     </div>

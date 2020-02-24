@@ -1,27 +1,20 @@
 <template>
   <div id="app">
+    <div style="height:3px; background-color:#B6D3F5"></div>
     <div id="nav">
-      <NavBar/>
+      <NavBar />
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
-
-
-
 <script>
-import NavBar from '@/components/NavBar.vue'
+import NavBar from "@/components/NavBar.vue";
 export default {
-   components: {
+  components: {
     NavBar
   }
-}
+};
 </script>
 
-
-<style>
-
-
-
-</style>
+<style></style>
