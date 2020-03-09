@@ -11,7 +11,11 @@
 
     <p style="color: #B6D3F5; font-size: 18px; margin-top: -15px">
       I am currently a Software Engineer (Web & Mobile)
-      <a href="https://favcode54.org/">
+      <a href="https://go.rw">
+        <span class="secondary-color-bold"> <u>@GO</u> </span>
+      </a>
+      &nbsp; &nbsp;  and
+      <a href="https://www.abitnetwork.com">
         <span class="secondary-color-bold"> <u>@ABiTNetwork</u> 🔥 </span>
       </a>
     </p>

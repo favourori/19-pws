@@ -13,15 +13,11 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
 
 
- <li>
-            <a href="badges.html"
-              > ABOUT</a
-            >
-          </li>
+
 
           <li>
-            <a href="badges.html"
-              ><i class="material-icons left">view_module</i> PROJECTS</a
+            <a href="https://github.com/favourori" target="_blank"
+              >PROJECTS</a
             >
           </li>
         </ul>
