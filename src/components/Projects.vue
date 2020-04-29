@@ -21,7 +21,7 @@
         <div class="inner">
           <div class="project-bg bg2"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>FavCode54</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -33,7 +33,7 @@
         <div class="inner">
           <div class="project-bg bg3"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>College Situation</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -45,7 +45,7 @@
         <div class="inner">
           <div class="project-bg bg3"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>Tugure</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -57,7 +57,7 @@
         <div class="inner">
           <div class="project-bg bg3"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>MedJapa</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -69,7 +69,7 @@
         <div class="inner">
           <div class="project-bg bg3"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>4YBY</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -117,11 +117,11 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   /* max-width: 650px; */
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .project-link {
   width: calc(33.3% - 20px);
-  min-height: 30vh;
+  min-height: 33vh;
   position: relative;
   margin-bottom: 20px;
   transition: all 0.4s ease-in-out !important;
