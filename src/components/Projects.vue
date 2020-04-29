@@ -21,7 +21,7 @@
         <div class="inner">
           <div class="project-bg bg2"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>FavCode54</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -33,7 +33,31 @@
         <div class="inner">
           <div class="project-bg bg3"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>College Situation</h3>
+            <p>
+              WeJapa helps techies gain access to tech jobs across Africa,
+              Europe and North America.
+            </p>
+          </div>
+        </div>
+      </router-link>
+      <router-link :to="{ name: '4yby' }" class="project-link">
+        <div class="inner">
+          <div class="project-bg bg4"></div>
+          <div class="project-content">
+            <h3>Tugure</h3>
+            <p>
+              WeJapa helps techies gain access to tech jobs across Africa,
+              Europe and North America.
+            </p>
+          </div>
+        </div>
+      </router-link>
+      <router-link :to="{ name: '4yby' }" class="project-link">
+        <div class="inner">
+          <div class="project-bg bg5"></div>
+          <div class="project-content">
+            <h3>MedJapa</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -45,31 +69,7 @@
         <div class="inner">
           <div class="project-bg bg3"></div>
           <div class="project-content">
-            <h3>WeJapa</h3>
-            <p>
-              WeJapa helps techies gain access to tech jobs across Africa,
-              Europe and North America.
-            </p>
-          </div>
-        </div>
-      </router-link>
-      <router-link :to="{ name: '4yby' }" class="project-link">
-        <div class="inner">
-          <div class="project-bg bg3"></div>
-          <div class="project-content">
-            <h3>WeJapa</h3>
-            <p>
-              WeJapa helps techies gain access to tech jobs across Africa,
-              Europe and North America.
-            </p>
-          </div>
-        </div>
-      </router-link>
-      <router-link :to="{ name: '4yby' }" class="project-link">
-        <div class="inner">
-          <div class="project-bg bg3"></div>
-          <div class="project-content">
-            <h3>WeJapa</h3>
+            <h3>4YBY</h3>
             <p>
               WeJapa helps techies gain access to tech jobs across Africa,
               Europe and North America.
@@ -120,11 +120,11 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   /* max-width: 650px; */
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .project-link {
   width: calc(33.3% - 20px);
-  min-height: 30vh;
+  min-height: 33vh;
   position: relative;
   margin-bottom: 20px;
   transition: all 0.4s ease-in-out !important;
@@ -153,14 +153,25 @@ export default {
 }
 
 .bg1 {
-  background-image: url("../assets/projects/cs.png");
+  background-image: url("../assets/projects/wejapa.png");
 }
 .bg2 {
-  background-image: url("../assets/projects/4yby.png");
+  background-image: url("../assets/projects/favcode.jpg");
 }
 .bg3 {
-  background-image: url("../assets/projects/github.png");
+  background-image: url("../assets/projects/colleges.png");
 }
+
+
+.bg4 {
+  background-image: url("../assets/projects/tugure.png");
+}
+
+.bg5 {
+  background-image: url("../assets/projects/medjapa.jpg");
+}
+
+
 .project-bg:after {
   content: "";
   background: #000;
