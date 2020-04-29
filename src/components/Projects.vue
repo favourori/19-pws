@@ -92,7 +92,7 @@ export default {
 
 <style>
 .secondary-color {
-  color: #fcbf77 !important;
+  color: #66bd90 !important;
 }
 
 .project {
@@ -162,7 +162,6 @@ export default {
   background-image: url("../assets/projects/colleges.png");
 }
 
-
 .bg4 {
   background-image: url("../assets/projects/tugure.png");
 }
@@ -170,7 +169,6 @@ export default {
 .bg5 {
   background-image: url("../assets/projects/medjapa.jpg");
 }
-
 
 .project-bg:after {
   content: "";

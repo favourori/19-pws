@@ -9,7 +9,7 @@
       simplifying & Improving life.
     </p>
 
-    <p style="color: #B6D3F5; font-size: 18px; margin-top: -15px">
+    <p style=" font-size: 18px; margin-top: -15px">
       I am currently building
       <a href="https://wejapa.com">
         <span class="secondary-color-bold"> <u>@WeJapa</u> </span>
@@ -43,6 +43,6 @@ export default {
 }
 
 .secondary-color-bold {
-  color: #54b6f7;
+  color: #66bd90;
 }
 </style>

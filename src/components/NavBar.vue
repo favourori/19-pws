@@ -39,7 +39,7 @@ export default {
 }
 
 .secondary-color {
-  color: #ffe402;
+  color: #66bd90;
   font-weight: 700;
   font-size: 40px;
 }

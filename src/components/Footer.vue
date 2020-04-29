@@ -5,8 +5,8 @@
     <div>
       <p align="center" class="footer-secondary-color">REACH OUT</p>
       <p class="blue-color footer" align="center">
-        I am always interested in fun projects & activities, <br/> so feel free to
-        drop me a line favourori(@)gmail(dot)com
+        I am always interested in fun projects & activities, <br />
+        so feel free to drop me a line favourori(@)gmail(dot)com
       </p>
     </div>
   </div>
@@ -14,26 +14,22 @@
 
 <script>
 export default {
-  title: "Footer"
+  title: "Footer",
 };
 </script>
 
 <style>
 .footer-secondary-color {
-  color: #54b6f7;
+  color: #66bd90;
   font-weight: 700;
   font-size: 30px;
-}
-
-.blue-color {
-  color: #b6d3f5;
 }
 
 hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgb(50, 69, 90);
+  border-bottom: 1px solid #66bd9040;
 }
 
 .footer {
