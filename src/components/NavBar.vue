@@ -12,7 +12,7 @@
         </router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <router-link :to="{ name: 'projects' }">
-           Featured project
+            Featured projects
           </router-link>
         </ul>
       </div>
