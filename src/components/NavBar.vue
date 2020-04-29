@@ -11,7 +11,7 @@
           </span>
         </router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <router-link :to="{ name: 'collegeSituation' }">
+          <router-link :to="{ name: 'projects' }">
            Featured project
           </router-link>
         </ul>
