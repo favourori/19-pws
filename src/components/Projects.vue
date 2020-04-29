@@ -9,6 +9,10 @@
           <div class="project-bg bg1"></div>
           <div class="project-content">
             WeJapa
+            <p>
+              WeJapa helps techies gain access to tech jobs across Africa,
+              Europe and North America.
+            </p>
           </div>
         </div>
         <!-- <img src="@/assets/projects/cs.png" class="project" /> -->
@@ -18,6 +22,10 @@
           <div class="project-bg bg2"></div>
           <div class="project-content">
             WeJapa
+            <p>
+              WeJapa helps techies gain access to tech jobs across Africa,
+              Europe and North America.
+            </p>
           </div>
         </div>
         <!-- <img src="@/assets/projects/4yby.png" class="project" /> -->
@@ -27,6 +35,10 @@
           <div class="project-bg bg3"></div>
           <div class="project-content">
             WeJapa
+            <p>
+              WeJapa helps techies gain access to tech jobs across Africa,
+              Europe and North America.
+            </p>
           </div>
         </div>
         <!-- <img src="@/assets/projects/github.png" class="project" /> -->
@@ -153,7 +165,12 @@ a:hover.project-link .project-bg {
   border-bottom-left-radius: 10px !important;
   border-bottom-right-radius: 10px !important;
 }
-
+.project-content p {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
 @media only screen and (max-width: 999px) and (min-width: 690px) {
   .project-link {
     width: calc(50% - 20px);
