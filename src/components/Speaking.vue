@@ -59,7 +59,7 @@ export default {
 
 <style>
 .secondary-color {
-  color: #ffe402;
+  color: #54b6f7;
 }
 
 .light-color {

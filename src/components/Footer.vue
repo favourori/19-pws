@@ -20,7 +20,7 @@ export default {
 
 <style>
 .footer-secondary-color {
-  color: #ffe402;
+  color: #54b6f7;
   font-weight: 700;
   font-size: 30px;
 }

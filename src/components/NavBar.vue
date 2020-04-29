@@ -11,15 +11,9 @@
           </span>
         </router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-
-
-
-
-          <li>
-            <a href="https://github.com/favourori" target="_blank"
-              >PROJECTS</a
-            >
-          </li>
+          <router-link :to="{ name: 'collegeSituation' }">
+           Featured project
+          </router-link>
         </ul>
       </div>
     </nav>
@@ -32,16 +26,16 @@ export default {
 
   data() {
     return {
-      isHome: true
+      isHome: true,
     };
-  }
+  },
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .primary-background {
-  background-color: #222f3e;
+  background-color: #000000;
 }
 
 .secondary-color {
