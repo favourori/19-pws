@@ -78,12 +78,15 @@
         </div>
       </router-link>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from "@/components/Footer";
 export default {
   name: "Intro",
+  components: { Footer },
 };
 </script>
 
