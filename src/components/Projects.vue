@@ -43,7 +43,7 @@
       </router-link>
       <router-link :to="{ name: '4yby' }" class="project-link">
         <div class="inner">
-          <div class="project-bg bg3"></div>
+          <div class="project-bg bg4"></div>
           <div class="project-content">
             <h3>Tugure</h3>
             <p>
@@ -55,7 +55,7 @@
       </router-link>
       <router-link :to="{ name: '4yby' }" class="project-link">
         <div class="inner">
-          <div class="project-bg bg3"></div>
+          <div class="project-bg bg5"></div>
           <div class="project-content">
             <h3>MedJapa</h3>
             <p>
@@ -150,14 +150,25 @@ export default {
 }
 
 .bg1 {
-  background-image: url("../assets/projects/cs.png");
+  background-image: url("../assets/projects/wejapa.png");
 }
 .bg2 {
-  background-image: url("../assets/projects/4yby.png");
+  background-image: url("../assets/projects/favcode.jpg");
 }
 .bg3 {
-  background-image: url("../assets/projects/github.png");
+  background-image: url("../assets/projects/colleges.png");
 }
+
+
+.bg4 {
+  background-image: url("../assets/projects/tugure.png");
+}
+
+.bg5 {
+  background-image: url("../assets/projects/medjapa.jpg");
+}
+
+
 .project-bg:after {
   content: "";
   background: #000;
