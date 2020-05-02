@@ -1,8 +1,10 @@
 <template>
   <div class="container" style="margin-top: 80px">
     <p class="secondary-color">
-      RECENT PROJECTS
+      FEATURED PROJECTS
     </p>
+    <br />
+
     <div class="flex-container">
       <router-link :to="{ name: 'collegeSituation' }" class="project-link">
         <div class="inner">
@@ -23,8 +25,8 @@
           <div class="project-content">
             <h3>FavCode54</h3>
             <p>
-              WeJapa helps techies gain access to tech jobs across Africa,
-              Europe and North America.
+              A tech initiative that aims to Teach, Mentor, & Build the next
+              generation of African Software Developers
             </p>
           </div>
         </div>
@@ -35,8 +37,8 @@
           <div class="project-content">
             <h3>College Situation</h3>
             <p>
-              WeJapa helps techies gain access to tech jobs across Africa,
-              Europe and North America.
+              An interactive platform that connects students all over the world
+              with Schools, Scholarships, etc
             </p>
           </div>
         </div>
@@ -59,20 +61,20 @@
           <div class="project-content">
             <h3>MedJapa</h3>
             <p>
-              WeJapa helps techies gain access to tech jobs across Africa,
-              Europe and North America.
+              Helping Medical Professionals (Doctors, Nurses, Caregivers etc)
+              JAPA to The UK, USA & Canada for work
             </p>
           </div>
         </div>
       </router-link>
       <router-link :to="{ name: '4yby' }" class="project-link">
         <div class="inner">
-          <div class="project-bg bg3"></div>
+          <div class="project-bg bg6"></div>
           <div class="project-content">
             <h3>4YBY</h3>
             <p>
-              WeJapa helps techies gain access to tech jobs across Africa,
-              Europe and North America.
+              HIV Self testing mobile app built for 4YBY @ Saint Louis
+              University
             </p>
           </div>
         </div>
@@ -168,6 +170,10 @@ export default {
 
 .bg5 {
   background-image: url("../assets/projects/medjapa.jpg");
+}
+
+.bg6 {
+  background-image: url("../assets/projects/4yby.png");
 }
 
 .project-bg:after {
