@@ -6,7 +6,7 @@
     <br />
 
     <div class="flex-container">
-      <router-link :to="{ name: 'collegeSituation' }" class="project-link">
+      <router-link :to="{ name: 'wejapa' }" class="project-link">
         <div class="inner">
           <div class="project-bg bg1"></div>
           <div class="project-content">
@@ -19,31 +19,8 @@
           </div>
         </div>
       </router-link>
-      <router-link :to="{ name: '4yby' }" class="project-link">
-        <div class="inner">
-          <div class="project-bg bg2"></div>
-          <div class="project-content">
-            <h3>FavCode54</h3>
-            <p>
-              A tech initiative that aims to Teach, Mentor, & Build the next
-              generation of African Software Developers
-            </p>
-          </div>
-        </div>
-      </router-link>
-      <router-link :to="{ name: '4yby' }" class="project-link">
-        <div class="inner">
-          <div class="project-bg bg3"></div>
-          <div class="project-content">
-            <h3>College Situation</h3>
-            <p>
-              An interactive platform that connects students all over the world
-              with Schools, Scholarships, etc
-            </p>
-          </div>
-        </div>
-      </router-link>
-      <router-link :to="{ name: '4yby' }" class="project-link">
+
+      <router-link :to="{ name: 'tugure' }" class="project-link">
         <div class="inner">
           <div class="project-bg bg4"></div>
           <div class="project-content">
@@ -55,7 +32,8 @@
           </div>
         </div>
       </router-link>
-      <router-link :to="{ name: '4yby' }" class="project-link">
+
+      <router-link :to="{ name: 'medjapa' }" class="project-link">
         <div class="inner">
           <div class="project-bg bg5"></div>
           <div class="project-content">
@@ -67,6 +45,32 @@
           </div>
         </div>
       </router-link>
+      <router-link :to="{ name: 'favcode' }" class="project-link">
+        <div class="inner">
+          <div class="project-bg bg2"></div>
+          <div class="project-content">
+            <h3>FavCode54</h3>
+            <p>
+              A tech initiative that aims to Teach, Mentor, & Build the next
+              generation of African Software Developers
+            </p>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link :to="{ name: 'collegesituation' }" class="project-link">
+        <div class="inner">
+          <div class="project-bg bg3"></div>
+          <div class="project-content">
+            <h3>College Situation</h3>
+            <p>
+              An interactive platform that connects students all over the world
+              with Schools, Scholarships, etc
+            </p>
+          </div>
+        </div>
+      </router-link>
+
       <router-link :to="{ name: '4yby' }" class="project-link">
         <div class="inner">
           <div class="project-bg bg6"></div>

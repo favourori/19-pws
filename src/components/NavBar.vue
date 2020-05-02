@@ -10,11 +10,20 @@
             FAVOUR ORI<span class="secondary-color">.</span>
           </span>
         </router-link>
+
+      
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <router-link :to="{ name: 'projects' }">
             Featured projects
           </router-link>
         </ul>
+
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <router-link :to="{ name: 'about' }">
+            About me
+          </router-link>
+        </ul>
+
       </div>
     </nav>
   </div>

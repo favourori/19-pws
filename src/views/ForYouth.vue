@@ -1,36 +1,23 @@
 <template>
   <div>
     <div class="container">
-      <div class="breadcrumb">home / projects / 4yby</div>
-      <h1 class="primary-color project-title">4YouthByYouth - Saint Louis University</h1>
+      <div class="breadcrumb animated fadeIn">
+        home / projects / 4yby
+      </div>
+      <h1 class="primary-color project-title">4YBY - For Youth By Youth</h1>
       <p class="primary-color blue-font about-app">
-        Website & Mobile App for 4YBY - 
-        A team of young people, health professionals,
-        activists, entrepreneurs from diverse backgrounds, who are united by
-        the shared passion to advance Nigerian youth participation in
-        innovation and entrepreneurship for sustainable HIV prevention
-        services.
+        WeJapa helps techies gain access to tech jobs across Africa, Europe and
+        North America.
       </p>
       <br />
-      <p class="features">Features</p>
-      <ol class="blue-font info">
-        <li>Swipe to explore thousands of Colleges & Universities</li>
-        <li>Add / View Housing in your location</li>
-        
-      </ol>
-      <br />
-      <p class="features">Role</p>
-      <ol class="blue-font info">
-        
-        <li>Designed Website (Wordpress - team's choice) & Mobile App screens (Adobe XD)</li>
-      </ol>
     </div>
 
     <br />
     <br />
     <div>
-      <img src="@/assets/projects/4ybyfull.jpg" class="project-image" />
+      <img src="@/assets/projects/4ybyfull.png" class="project-image" />
     </div>
+
     <br />
     <Footer />
   </div>
@@ -40,8 +27,8 @@
 import Footer from "../components/Footer";
 export default {
   components: {
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 
@@ -56,7 +43,7 @@ export default {
 
 .breadcrumb {
   margin-top: 60px;
-  color: #FFE403;
+  color: #66bd90;
   opacity: 0.8;
 }
 
@@ -65,16 +52,16 @@ export default {
 }
 
 .blue-font {
-  color: #b6d3f5;
+  color: #ffffff;
 }
 
 .yellow-font {
-  color: #FFE403;
+  color: #ffe403;
 }
 
 .about-app {
   max-width: 630px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .features {

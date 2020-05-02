@@ -1,8 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-//import CollegeSituation from "../views/CollegeSituation.vue";
-import ForYouth from "../views/ForYouth.vue";
 import Projects from "../components/Projects.vue";
 
 Vue.use(VueRouter);
@@ -17,13 +15,7 @@ const routes = [
     path: "/projects",
     name: "projects",
     component: Projects,
-    children: [
-      {
-        path: "4yby",
-        name: "4yby",
-        component: ForYouth,
-      },
-    ],
+    children: [],
   },
 
   {
@@ -56,7 +48,6 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Wejapa.vue"),
   },
 
-
   {
     path: "/projects/favcode",
     name: "favcode",
@@ -75,6 +66,26 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Tugure.vue"),
+  },
+
+  {
+    path: "/projects/medjapa",
+    name: "medjapa",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/Medjapa.vue"),
+  },
+
+  {
+    path: "/projects/4youth",
+    name: "4yby",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/ForYouth.vue"),
   },
 ];
 
